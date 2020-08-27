@@ -7,8 +7,8 @@ export const GlobalStyle = createGlobalStyle
     }
 
     body {
-        background-color:SteelBlue;
-        margin: 0;
+      background-color:SteelBlue;
+       margin: 0;
         padding: 0 20px;
         display flex;
         justify-content: center
