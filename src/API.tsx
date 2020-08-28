@@ -22,7 +22,7 @@ export type Question = {
     correct_answer: string;
     difficulty: string;
     incorrect_answers: string[];
-    Question: string;
+    question: string;
     type: string;
 
 };
