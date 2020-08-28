@@ -46,11 +46,11 @@ else
     if (!gameOver) {
       const answer = e.currentTarget.value;
       const correct = questions[number].correct_answer === answer;
-      const quest=questions[number].question;
+      //const quest=questions[number].question;
       if (correct) setScore(prev => prev + 1)
       const AnswerObject = {
         //question: questions[number].question,
-        quest,
+        questions,
         answer,
         correct,
         correctAnswer: questions[number].correct_answer
