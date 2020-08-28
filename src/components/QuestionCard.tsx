@@ -2,7 +2,7 @@ import React from 'react';
 import {Wrapper,ButtonWrapper} from './QuestionCard.styles';
 
 type Props = {
-    question: any;
+    question: string;
     answers: string[];
     callback: any;
     userAnswer: any;
