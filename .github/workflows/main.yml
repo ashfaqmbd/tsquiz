@@ -29,7 +29,7 @@ jobs:
        cmd: install
     - name: Build react App
       run: yarn build
-    - name: Install Surge
+    - name: Installing Surge
       run: npm install -g surge
     - name: Run Surge
       run: surge ./build afq-quiz.surge.sh --token ${{secrets.QUIZ_SECRET}}
