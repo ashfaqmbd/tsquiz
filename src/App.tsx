@@ -49,7 +49,7 @@ else
       //const quest=questions[number].question;
       if (correct) setScore(prev => prev + 1)
       const AnswerObject = {
-       questions: questions[number].question,
+       questions: questions[number].questions,
        answer,
         correct,
         correctAnswer: questions[number].correct_answer
